@@ -2,6 +2,10 @@ name = "TPIL"
 version = "0.1.0"
 defaultTargets = ["tpil"]
 
+[[requires]]
+name = "std"
+src = false
+
 [[lean_lib]]
 name = "TPIL"
 
